@@ -12,6 +12,7 @@ public class Veiculo {
 
 	private String nome;
 	private String marca;
+	private Double preco;
 	
 	public Veiculo() {
 		
@@ -32,6 +33,15 @@ public class Veiculo {
 	public void setMarca(String marca) {
 		this.marca = marca;
 	}
+
+	public Double getPreco() {
+		return preco;
+	}
+
+	public void setPreco(Double preco) {
+		this.preco = preco;
+	}
+	
 	
 	
 	
