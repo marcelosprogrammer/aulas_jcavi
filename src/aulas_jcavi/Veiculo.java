@@ -49,6 +49,14 @@ public class Veiculo {
 	
 	
 	
+	public String acelerar(String vl) {
+		return "Acelerar "+vl;
+	}
+	
+	public String desacelerar(String vl) {
+		return "Desacelerar "+vl;
+	}
+	
 	
 	
 }
