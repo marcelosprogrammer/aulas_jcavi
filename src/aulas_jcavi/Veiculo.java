@@ -13,6 +13,7 @@ public class Veiculo {
 	private String nome;
 	private String marca;
 	private Double preco;
+	private boolean frear;
 	
 	public Veiculo() {
 		
@@ -44,7 +45,7 @@ public class Veiculo {
 
 	@Override
 	public String toString() {
-		return "Veiculo [nome=" + nome + ", marca=" + marca + ", preco=" + preco + "]";
+		return "Veiculo [nome=" + nome + ", marca=" + marca + ", preco=" + preco + ", frear=" + frear + "]";
 	}
 	
 	
@@ -57,6 +58,24 @@ public class Veiculo {
 		return "Desacelerar "+vl;
 	}
 	
+	
+	public String frear() {
+		return "Parando o Veículo";
+	}
+
+	public boolean isFrear() {
+		return frear;
+	}
+
+	public void setFrear(boolean frear) {
+		this.frear = frear;
+	}
+	
+	public String trocarMarcha(int marcha) {
+		
+		return "Trocando para a Marcha: "+marcha;
+	
+	}
 	
 	
 }

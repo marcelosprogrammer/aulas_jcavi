@@ -4,6 +4,7 @@ public class Pessoa {
 
 	private String nome;
 	private String cnpjCpf;
+	
 	private Endereco endereco;
 
 	public String getNome() {
@@ -22,8 +23,6 @@ public class Pessoa {
 		this.cnpjCpf = cnpjCpf;
 	}
 
-	
-	
 	public Endereco getEndereco() {
 		return endereco;
 	}
@@ -36,5 +35,8 @@ public class Pessoa {
 	public String toString() {
 		return "Pessoa [nome=" + nome + ", cnpjCpf=" + cnpjCpf + ", endereco=" + endereco + "]";
 	}
+	
+	
+	
 
 }

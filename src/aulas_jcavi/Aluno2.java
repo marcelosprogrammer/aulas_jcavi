@@ -21,8 +21,6 @@ public class Aluno2 extends Pessoa {
 		this.turma = turma;
 	}
 
-	
-	
 	@Override
 	public String toString() {
 		return "Aluno2 [matricula=" + matricula + ", turma=" + turma + ", getNome()=" + getNome() + ", getCnpjCpf()="
@@ -30,6 +28,8 @@ public class Aluno2 extends Pessoa {
 				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + "]";
 	}
 
+	
+	
 	
 	
 	

@@ -33,6 +33,7 @@ public class UsaAluno {
 			turma.setNome(JOptionPane.showInputDialog("Digite o nome da Turma: "));
 			
 			
+			
 			// preenchendo o array de disciplinas
 			Disciplina disciplinas[] = new Disciplina[2];
 			

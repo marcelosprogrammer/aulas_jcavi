@@ -62,7 +62,5 @@ public class Endereco {
 		return "Endereco [logradouro=" + logradouro + ", numero=" + numero + ", bairro=" + bairro + ", municipio="
 				+ municipio + ", estado=" + estado + ", cep=" + cep + "]";
 	}
-	
-	
 
 }
